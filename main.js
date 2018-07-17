@@ -393,6 +393,7 @@ export default class Main extends Component {
                             onProgress={(e) => this.onProgress(e)}
                             onLoad={(e) => this.onLoad(e)}
                             playInBackground={true}
+                            playWhenInactive={true}
                         />
                         {/*歌曲信息*/}
                         <View style={styles.playingInfo}>
